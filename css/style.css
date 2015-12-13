@@ -1,0 +1,152 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+header {
+  background-image: url("../img/bg.jpg");
+  width: 100%;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  padding-bottom: 56%;
+  height: 0;
+}
+
+.main-width {
+  border: 1px solid red;
+  margin: 0 auto;
+  width: 85%;
+}
+
+.logo {
+  border: 1px solid red;
+  margin: 0 auto;
+  text-align: center;
+}
+.logo img {
+  height: 50px;
+  width: 200px;
+}
+
+.sentence {
+  border: 1px solid red;
+  margin: 0 auto;
+  width: 70%;
+  text-align: center;
+  color: white;
+}
+
+.flex-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 350px;
+  list-style: none;
+  align-items: center;
+  border: 1px solid red;
+  justify-content: space-between;
+}
+.flex-list li {
+  flex: 1 1 auto;
+  justify-content: center;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  background-image: url("../img/shape1.png");
+  background-repeat: no-repeat;
+  background-size: 95% auto;
+  border: 1px solid red;
+  background-position: center;
+  width: 20%;
+  text-align: center;
+  align-self: flex-end;
+}
+.flex-list li img {
+  width: 40%;
+}
+.flex-list .ikonUp {
+  align-self: flex-start;
+}
+
+p {
+  border: 1px solid red;
+  text-align: center;
+}
+p img {
+  height: 50px;
+}
+
+.menuBar {
+  display: flex;
+  border: 1px solid red;
+  width: 85%;
+  margin: 0 auto;
+}
+.menuBar .logo2 {
+  border: 1px solid red;
+  width: 50%;
+  text-align: center;
+}
+.menuBar .mainMenu {
+  border: 1px solid red;
+  width: 50%;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+.menuBar .mainMenu a {
+  text-decoration: none;
+  color: gray;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.graySection {
+  background-color: aliceblue;
+}
+
+.flex-list2 {
+  width: 85%;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  height: 400px;
+  list-style: none;
+  border: 1px solid red;
+  justify-content: space-between;
+}
+.flex-list2 li {
+  flex: 1 1 auto;
+  justify-content: center;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  background-repeat: no-repeat;
+  width: 20%;
+  text-align: center;
+  align-self: center;
+}
+.flex-list2 li img {
+  width: 40%;
+}
+.flex-list2 li p {
+  color: gray;
+  padding: 5%;
+}
+
+/*# sourceMappingURL=style.css.map */
