@@ -350,8 +350,65 @@ svg:hover {
     margin-top: 5%;
   }
 }
+//slider2
+.background-color-slider2 {
+  background-color: lightgray;
+}
+.slider2 {
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 5%;
+  .flex-data-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    text-align: center;
+    li {
+      h1 {
+        font-size: 20px;
+      }
+    }
+  }
+  img {
+    border-radius: 100%;
+    padding: 4%;
+  }
+  p {
+    padding: 10px;
+  }
+}
 
-
+.ourSkills {
+  width: 85%;
+  margin: 0 auto;
+}
+.ourPortfolio {
+  padding: 5%;
+  border: solid red;
+  text-align: center;
+  img {
+    border: 1px solid red;
+    margin: 0 auto;
+    height: 60px;
+    width: 170px;
+  }
+}
+.flex-list-buttons {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  li {
+    padding: 5px;
+    button {
+      background-color: white;
+      border: 1px solid black;
+      border-radius: 15%;
+      width: 50px;
+      height: 30px;
+    }
+  }
+}
 
 
 
