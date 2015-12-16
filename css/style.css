@@ -185,6 +185,10 @@ svg:hover {
   padding: 5%;
   border: solid red;
 }
+.flexAboutUs img {
+  height: 300px;
+  width: 400px;
+}
 .flexAboutUs .right-side {
   width: 50%;
   border: solid yellow;
@@ -229,8 +233,8 @@ svg:hover {
   width: 100%;
   background-size: 100% auto;
   background-repeat: no-repeat;
-  padding: 5%;
-  padding-bottom: 56%;
+  padding: 20px;
+  padding-bottom: 20%;
   height: 0;
   text-align: center;
 }
@@ -242,6 +246,64 @@ svg:hover {
 .hut p {
   color: white;
   margin-top: 5%;
+}
+
+.logoOurTeam {
+  padding: 5%;
+  border: solid red;
+  text-align: center;
+}
+.logoOurTeam img {
+  border: 1px solid red;
+  margin: 0 auto;
+  height: 50px;
+  width: 150px;
+}
+
+.slider-buttons {
+  border: solid red;
+  text-align: center;
+}
+.slider-buttons img {
+  border: 1px solid red;
+  margin: 0 auto;
+  height: 40px;
+  width: 40px;
+}
+
+.people {
+  border: 1px solid red;
+  margin: 0 auto;
+  width: 85%;
+}
+.people .flex-slider {
+  display: flex;
+  list-style: none;
+  padding: 20px;
+  justify-content: space-around;
+}
+.people .flex-slider li * {
+  padding: 5px;
+}
+.people .flex-slider li {
+  text-align: center;
+  color: gray;
+  padding: 5px;
+}
+.people .flex-slider li img {
+  border-radius: 100%;
+}
+
+.logoOurSkills {
+  padding: 5%;
+  border: solid red;
+  text-align: center;
+}
+.logoOurSkills img {
+  border: 1px solid red;
+  margin: 0 auto;
+  height: 50px;
+  width: 150px;
 }
 
 /*# sourceMappingURL=style.css.map */

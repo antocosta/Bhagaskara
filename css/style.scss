@@ -176,6 +176,10 @@ svg:hover {
   margin: 0 auto;
   padding: 5%;
   border: solid red;
+  img {
+    height: 300px;
+    width: 400px;
+  }
   .right-side {
     width: 50%;
     border: solid yellow;
@@ -221,8 +225,8 @@ svg:hover {
   width: 100%;
   background-size: 100%auto;
   background-repeat: no-repeat;
-  padding: 5%;
-  padding-bottom: 56%;
+  padding: 20px;
+  padding-bottom: 20%;
   height: 0;
   text-align: center;
   img {
@@ -235,9 +239,63 @@ svg:hover {
     margin-top: 5%;
   }
 }
-
-
-
+//slider - our team
+.logoOurTeam {
+    padding: 5%;
+    border: solid red;
+    text-align: center;
+    img {
+      border: 1px solid red;
+      margin: 0 auto;
+      height: 50px;
+      width: 150px;
+    }
+}
+.slider-buttons {
+  //padding: 2%;
+  border: solid red;
+  text-align: center;
+  img {
+    border: 1px solid red;
+    margin: 0 auto;
+    height: 40px;
+    width: 40px;
+  }
+}
+.people {
+  border: 1px solid red;
+  margin: 0 auto;
+  width: 85%;
+  .flex-slider {
+    display: flex;
+    list-style: none;
+    padding: 20px;
+    justify-content: space-around;
+    li * {
+      padding: 5px;
+    }
+    li {
+      text-align: center;
+      color: gray;
+      padding: 5px;
+      img {
+        border-radius: 100%;
+      }
+    }
+  }
+}
+//our skills
+.logoOurSkills {
+  padding: 5%;
+  border: solid red;
+  text-align: center;
+  img {
+    border: 1px solid red;
+    margin: 0 auto;
+    height: 50px;
+    width: 150px;
+  }
+}
 
 
 
