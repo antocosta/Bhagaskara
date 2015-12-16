@@ -285,6 +285,10 @@ svg:hover {
   }
 }
 //our skills
+.ourSkills {
+ width: 85%;
+ margin: 0 auto;
+}
 .logoOurSkills {
   padding: 5%;
   border: solid red;
@@ -296,8 +300,56 @@ svg:hover {
     width: 150px;
   }
 }
-
-
+.skills {
+  display: flex;
+  justify-content: space-around;
+  border: solid red;
+  padding: 5%;
+  .left-side {
+    p {
+      text-align: left;
+      padding-bottom: 5%;
+      padding-top: 5%;
+    }
+    .grayRectangle {
+      width: 250px;
+      height: 10px;
+      background-color: gray;
+    }
+  }
+  .right-side {
+    p {
+      text-align: left;
+      padding-bottom: 5%;
+      padding-top: 5%;
+    }
+    .grayRectangle {
+      width: 250px;
+      height: 10px;
+      background-color: gray;
+    }
+  }
+}
+//cloud
+.cloud {
+  background-image: url("../img/Quote.png");
+  width: 100%;
+  background-size: 100%auto;
+  background-repeat: no-repeat;
+  padding: 20px;
+  padding-bottom: 20%;
+  height: 0;
+  text-align: center;
+  img {
+    border: solid red;
+    width: 100px;
+    height: 100px;
+  }
+  p {
+    color: white;
+    margin-top: 5%;
+  }
+}
 
 
 

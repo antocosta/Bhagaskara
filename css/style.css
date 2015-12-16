@@ -294,6 +294,11 @@ svg:hover {
   border-radius: 100%;
 }
 
+.ourSkills {
+  width: 85%;
+  margin: 0 auto;
+}
+
 .logoOurSkills {
   padding: 5%;
   border: solid red;
@@ -304,6 +309,53 @@ svg:hover {
   margin: 0 auto;
   height: 50px;
   width: 150px;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-around;
+  border: solid red;
+  padding: 5%;
+}
+.skills .left-side p {
+  text-align: left;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+.skills .left-side .grayRectangle {
+  width: 250px;
+  height: 10px;
+  background-color: gray;
+}
+.skills .right-side p {
+  text-align: left;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+.skills .right-side .grayRectangle {
+  width: 250px;
+  height: 10px;
+  background-color: gray;
+}
+
+.cloud {
+  background-image: url("../img/Quote.png");
+  width: 100%;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  padding: 20px;
+  padding-bottom: 20%;
+  height: 0;
+  text-align: center;
+}
+.cloud img {
+  border: solid red;
+  width: 100px;
+  height: 100px;
+}
+.cloud p {
+  color: white;
+  margin-top: 5%;
 }
 
 /*# sourceMappingURL=style.css.map */
