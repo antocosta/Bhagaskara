@@ -1,3 +1,4 @@
+//reset
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -32,7 +33,7 @@ header {
   margin: 0 auto;
   width: 85%;
 }
-.logo {
+ .logo {
   border: 1px solid red;
   margin: 0 auto;
   text-align: center;
@@ -173,7 +174,7 @@ svg:hover {
   display: flex;
   width: 85%;
   margin: 0 auto;
-  padding: 0;
+  padding: 5%;
   border: solid red;
   .right-side {
     width: 50%;
@@ -184,7 +185,7 @@ svg:hover {
     justify-content: space-around;
     p {
       max-width: 200px;
-      text-align: center;
+      text-align: left;
     }
     button {
       max-width: 150px;
@@ -214,9 +215,26 @@ svg:hover {
     }
    }
   }
-
-
-
+//hut section
+.hut {
+  background-image: url("../img/Quote.png");
+  width: 100%;
+  background-size: 100%auto;
+  background-repeat: no-repeat;
+  padding: 5%;
+  padding-bottom: 56%;
+  height: 0;
+  text-align: center;
+  img {
+    border: solid red;
+    width: 100px;
+    height: 100px;
+  }
+  p {
+    color: white;
+    margin-top: 5%;
+  }
+}
 
 
 
