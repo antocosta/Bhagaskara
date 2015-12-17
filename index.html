@@ -19,13 +19,13 @@
             <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit </p>
         </section>
         <section>
-            <ul class = "flex-list">
-                <li><img src="img/about.png" alt="logo"></li>
-                <li><img src="img/team.png" alt="logo"></li>
-                <li class = "ikonUp"><img src="img/services.png" alt="logo"></li>
-                <li class = "ikonUp"><img src="img/portfolio.png" alt="logo"></li>
-                <li><img src="img/blog.png" alt="logo"></li>
-                <li><img src="img/contact.png" alt="logo"></li>
+            <ul class = "flex-list menuScroll" >
+                <li><a href = "#about" ><img src="img/about.png" alt="logo"></a></li>
+                <li><a href = "#ourteam" ><img src="img/team.png" alt="logo"></a></li>
+                <li class = "ikonUp"><a href = "#ourskills" ><img src="img/services.png" alt="logo"></a></li>
+                <li class = "ikonUp"><a href = "#ourportfolio" ><img src="img/portfolio.png" alt="logo"></a></li>
+                <li><a href = "#blog" ><img src="img/blog.png" alt="logo"></a></li>
+                <li><a href = "#getintouch" ><img src="img/contact.png" alt="logo"></a></li>
             </ul>
             <p><img src="img/arrow.png" alt="logo"></p>
         </section>
@@ -86,7 +86,7 @@
     </ul>
 </div>
 <!--about us-->
-<div class = "aboutUs">
+<div class = "aboutUs" id = "about">
     <img src = "img/aboutus.png" alt = "logo about us">
 </div>
 <div class = "flexAboutUs">
@@ -101,32 +101,32 @@
   <img src="img/hut.png" alt = "academic hut">
   <p>Lorem ipsum dolor sit amet magna.</p>
 </div>
-<!--our team-->
-<div class="ourteam">
+<!--our team slider1-->
+<div class="ourteam" id = "ourteam">
     <section class = "logoOurTeam">
         <img src="img/ourteam.png" alt="ourteam">
     </section>
     <section class = "slider-buttons">
-        <img src="img/arrowleft.png" alt="arrowleft">
-        <img src="img/arrowright.png" alt="arrowright">
+        <img id = "arrowleftButton" src="img/arrowleft.png" alt="arrowleft">
+        <img id = "arrowrightButton" src="img/arrowright.png" alt="arrowright">
     </section>
     <section class="people">
-        <ul class = flex-slider>
-            <li>
+        <ul class = "flex-slider">
+            <li class = "smaller">
                 <img src="img/person1.jpg" alt="person1">
                 <h2>ANN KOWALSKI</h2>
                 <p>CEO/ Marketing Guru</p>
                 <img src="img/facebook.png" alt = "facebook">
                 <img src="img/gmail.png" alt = "gmail">
             </li>
-            <li>
+            <li class = "smaller">
                 <img src="img/person2.jpg" alt="person2">
                 <h2>AMY WINEHOUSE</h2>
                 <p>CEO/ Marketing Guru</p>
                 <img src="img/facebook.png" alt = "facebook">
                 <img src="img/gmail.png" alt = "gmail">
             </li>
-            <li>
+            <li class = "smaller">
                 <img src="img/person3.jpg" alt="person3">
                 <h2>JOHN COSTA</h2>
                 <p>CEO/ Marketing Guru</p>
@@ -136,7 +136,7 @@
         </ul>
     </section>
     <!--our skills-->
- <div class = "ourSkills">
+ <div class = "ourSkills" id = "ourskills">
      <section class = "logoOurSkills">
          <img src="img/ourskills.png" alt="ourskills">
      </section>
@@ -188,7 +188,7 @@
     </div>
 </div>
 <!--gallery-->
-<div class = "ourPortfolio">
+<div class = "ourPortfolio" id = "ourportfolio">
     <img src="img/ourportfolio.png" alt = "our portfolio">
 </div>
 <ul class = "flex-list-buttons">
@@ -200,31 +200,101 @@
 <div class = "flex-gallery">
     <div class = "picture1">
         <div class = photo>
-            <img src = "" alt = "">
-            background with plus
+            <img src = "img/gallery1.jpg" alt = "gallery1">
+            <div class= "plus-shadow"></div>
         </div>
         <p>Beautiful Nature</p>
-        <span>apps</span><span>icon</span><span>ui</span>
+        <span>apps </span><span>icon </span><span>ui</span>
         <div class = "img-big">
-            czarne tło rgba
-            img-big
+            <!--czarne tło rgba-->
+            <!--img-big-->
         </div>
     </div>
     <div class = "picture1">
         <div class = photo>
-            <img src = "" alt = "">
-            background with plus
+            <img src = "img/gallery2.jpg" alt = "gallery2">
+            <!--background with plus-->
         </div>
         <p>Beautiful Nature</p>
-        <span>apps</span><span>icon</span><span>ui</span>
+        <span>apps </span><span>icon </span><span>ui</span>
         <div class = "img-big">
-            czarne tło rgba
-            img-big
+            <!--czarne tło rgba-->
+            <!--img-big-->
         </div>
     </div>
+    <div class = "picture1">
+        <div class = photo>
+            <img src = "img/gallery3.jpg" alt = "gallery3">
+            <!--background with plus-->
+        </div>
+        <p>Beautiful Nature</p>
+        <span>apps </span><span>icon </span><span>ui</span>
+        <div class = "img-big">
+            <!--czarne tło rgba-->
+            <!--img-big-->
+        </div>
+    </div>
+    <div class = "picture1">
+        <div class = "photo">
+            <img src = "img/gallery4.jpg" alt = "gallery4">
+            <!--background with plus-->
+        </div>
+        <p>Beautiful Nature</p>
+        <span>apps </span><span>icon </span><span>ui</span>
+        <div class = "img-big">
+            <!--czarne tło rgba-->
+            <!--img-big-->
+        </div>
+    </div>
+    <div class = "picture1">
+        <div class = photo>
+            <img src = "img/gallery5.jpg" alt = "gallery5">
+            <!--background with plus-->
+        </div>
+        <p>Beautiful Nature</p>
+        <span>apps </span><span>icon </span><span>ui</span>
+        <div class = "img-big">
+            <!--czarne tło rgba-->
+            <!--img-big-->
+        </div>
+    </div>
+    <div class = "picture1">
+        <div class = photo>
+            <img src = "img/gallery6.jpg" alt = "gallery6">
+            <!--background with plus-->
+        </div>
+        <p>Beautiful Nature</p>
+        <span>apps </span><span>icon </span><span>ui</span>
+        <div class = "img-big">
+            <!--czarne tło rgba-->
+            <!--img-big-->
+        </div>
+    </div>
+</div>
+<div id = "watch-more" id = "blog">
     <button>Watch more</button>
 </div>
+<!--formulate-->
+<div class = "getInTouch" id = "getintouch">
+    <img src="img/getintouch.png" alt = "get in touch">
+</div>
+<div class = "flex-formulate">
+    <div class = "left-side-formulate">
+        <input type="text" placeholder="Imię" id= "inputName">
+        <p id = "span1" class = "warning" >Has to have more than one letter and cannot be a number.</p>
+        <input type="email" placeholder="email" id = "inputEmail">
+        <p id = "span2" class = "warning" >Has to have more than one letter and cannot be a number.</p>
+        <textarea placeholder="Wiadomość" class="message" id = "inputText"></textarea>
+        <p id = "span3" class = "warning" >Has to have more than one letter and cannot be a number.</p>
+    </div>
+    <div class = "right-side-formulate">
 
+    </div>
+</div>
+
+
+<!--logo koncowe-->
+<div class = "logoEnd"><img src="img/logo2.png";></div>
 
 </body>
 </html>
