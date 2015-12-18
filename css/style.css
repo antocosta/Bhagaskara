@@ -62,6 +62,12 @@ header {
   border: 1px solid red;
   justify-content: space-between;
 }
+.flex-list :hover {
+  background-image: url("../img/ShapeViolet.png");
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+}
 .flex-list li {
   flex: 1 1 auto;
   justify-content: center;
@@ -307,6 +313,10 @@ svg:hover {
 
 .smaller {
   opacity: 0.4;
+}
+
+.bigger {
+  opacity: 1;
 }
 
 .ourSkills {

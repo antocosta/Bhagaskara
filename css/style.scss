@@ -58,6 +58,12 @@ header {
   align-items: center;
   border: 1px solid red;
   justify-content: space-between;
+  :hover {
+    background-image: url("../img/ShapeViolet.png");
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+  }
   li {
     flex: 1 1 auto;
     justify-content: center;
@@ -262,7 +268,6 @@ svg:hover {
     }
 }
 .slider-buttons {
-  //padding: 2%;
   border: solid red;
   text-align: center;
   img {
@@ -296,6 +301,9 @@ svg:hover {
 }
 .smaller {
   opacity: 0.4;
+}
+.bigger {
+  opacity: 1;
 }
 //our skills
 .ourSkills {

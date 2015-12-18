@@ -34,10 +34,48 @@ $(document).ready(function(){
         });
     }
     stickyMenu();
-});
-//slider2
 
 //slider1
+    function slider1() {
+        var buttonLeft = $("#arrowleftButton");
+        var buttonRight = $("#arrowrightButton");
+        var allMembers = $(".flex-slider").children();
+        var allChildren = $(".flex-slider").children().length;
+        var counter = 1;
+
+        buttonRight.on("click", function(event){
+            event.preventDefault();                     //żeby strona się nie przeładowywała przez a href
+            var biggerElement = $(".bigger");
+            allMembers.removeClass("bigger");
+            var actualElement = biggerElement.index();
+
+            if (actualElement >= allChildren - 1) {
+                counter = 0;
+            } else {
+                counter ++;
+            }
+            allMembers.eq(counter).addClass("bigger");
+        });
+        buttonLeft.on("click", function(event){
+            event.preventDefault();                     //żeby strona się nie przeładowywała przez a href
+            var biggerElement = $(".bigger");
+            allMembers.removeClass("bigger");
+            var actualElement = biggerElement.index();
+
+            if (actualElement <= 0) {
+                counter = allChildren-1;
+            } else {
+                counter --;
+            }
+            allMembers.eq(counter).addClass("bigger");
+        });
+
+    }
+    slider1();
+
+});
+
+//slider z animacji
 //document.addEventListener('DOMContentLoaded', function () {
 //
 //    var listWithPictures = document.querySelectorAll("flex-slider li");
