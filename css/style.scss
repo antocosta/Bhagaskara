@@ -80,6 +80,9 @@ header {
     img {
       width: 40%;
     }
+    #lastPoint {
+      padding-bottom: 16%;
+    }
   }
   .ikonUp  {
     align-self: flex-start;
@@ -239,20 +242,32 @@ svg:hover {
 .hut {
   background-image: url("../img/Quote.png");
   width: 100%;
-  background-size: 100%auto;
+  background-size: 100% 900px;
   background-repeat: no-repeat;
   padding: 20px;
   padding-bottom: 20%;
   height: 0;
+  background-attachment: fixed;
+  position: relative;
   text-align: center;
   img {
     border: solid red;
     width: 100px;
     height: 100px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
   }
   p {
     color: white;
-    margin-top: 5%;
+    margin-top: 12%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
   }
 }
 //slider - our team
@@ -355,31 +370,66 @@ svg:hover {
 .cloud {
   background-image: url("../img/Quote.png");
   width: 100%;
-  background-size: 100%auto;
+  background-size: 100% 900px;
   background-repeat: no-repeat;
   padding: 20px;
   padding-bottom: 20%;
   height: 0;
   text-align: center;
+  background-attachment: fixed;
+  position: relative;
   img {
     border: solid red;
     width: 100px;
     height: 100px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
   }
   p {
     color: white;
-    margin-top: 5%;
+    margin-top: 15%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
   }
 }
 //slider2
-.background-color-slider2 {
-  background-color: lightgray;
+@keyframes slidy {
+  0% { left: 0%; }
+  10% { left: 0%; }
+  20% { left: -100%; }
+  25% { left: -100%; }
+  45% { left: -200%; }
+  55% { left: -200%; }
+  70% { left: -300%; }
+  75% { left: -300%; }
+  100% { left: -300%; }
 }
 .slider2 {
-  width: 85%;
+  overflow: hidden;
+  width: 100%;
   margin: 0 auto;
   text-align: center;
-  padding: 5%;
+    ul {
+    list-style: none;
+    position: relative;
+    width: 400%;
+    margin: 0;
+    left: 0;
+    text-align: center;
+    font-size: 20px;
+    animation: 20s slidy infinite;
+    .sliders {
+      width: 24.9%;
+      float: left;
+      border: solid black;
+    }
+  }
   .flex-data-list {
     display: flex;
     justify-content: space-around;
@@ -399,10 +449,14 @@ svg:hover {
     padding: 10px;
   }
 }
-
-.ourSkills {
-  width: 85%;
-  margin: 0 auto;
+#slide1 {
+  background-color: lightgrey;
+}
+#slide2 {
+  background-color: lightblue;
+}
+#slide3 {
+  background-color: lightgoldenrodyellow;
 }
 //gallery - portfolio
 .ourPortfolio {
@@ -459,6 +513,10 @@ svg:hover {
     }
   }
  }
+.invisible {
+  display: none;
+}
+
 
 #watch-more {
   text-align: center;

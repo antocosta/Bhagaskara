@@ -24,8 +24,8 @@
                 <li><a href = "#ourteam" ><img src="img/team.png" alt="logo"></a></li>
                 <li class = "ikonUp"><a href = "#ourskills" ><img src="img/services.png" alt="logo"></a></li>
                 <li class = "ikonUp"><a href = "#ourportfolio" ><img src="img/portfolio.png" alt="logo"></a></li>
-                <li><a href = "#blog" ><img src="img/blog.png" alt="logo"></a></li>
-                <li><a href = "#getintouch" ><img src="img/contact.png" alt="logo"></a></li>
+                <li><a href = "#blog"><img src="img/blog.png" alt="logo"></a></li>
+                <li><a href = "#getintouch"><img id="lastPoint" src="img/contact.png" alt="logo"></a></li>
             </ul>
             <p><img src="img/arrow.png" alt="logo"></p>
         </section>
@@ -145,7 +145,7 @@
      <section class = "skills">
          <div class = "left-side">
              <p>WEB DESIGN</p>
-             <div class = "grayRectangle"></div>
+             <div class = "grayRectangle"><div></div></div>
              <p>HTML/CSS</p>
              <div class = "grayRectangle"></div>
          </div>
@@ -164,109 +164,180 @@
     <p>Lorem ipsum dolor sit amet magna.</p>
 </div>
 <!--slider2-->
-<div class = "background-color-slider2">
     <div class = "slider2">
-        <ul class="flex-data-list">
-            <li>
-                <h1>365</h1>
-                <p>lorem ipsum</p>
+        <ul>
+            <li id = "slide1" class = "sliders">
+                <ul class="flex-data-list">
+                    <li>
+                        <h1>365</h1>
+                        <p>lorem ipsum</p>
+                    </li>
+                    <li>
+                        <h1>98%</h1>
+                        <p>lorem ipsum</p>
+                    </li>
+                    <li>
+                        <h1>69</h1>
+                        <p>lorem ipsum</p>
+                    </li>
+                    <li>
+                        <h1>1,642</h1>
+                        <p>lorem ipsum</p>
+                    </li>
+                </ul>
+                <img src="img/person1.jpg" alt = "person3">
+                <p>"Lorem ipsum dolor sit amet magna. Cum sociis natoque penatibus et felis risus auctor augue leo, in consequat non, sagittis vel"</p>
+                <p>LESALE CHRISTPHER, PINTEREST</p>
             </li>
-            <li>
-                <h1>98%</h1>
-                <p>lorem ipsum</p>
+            <li id = "slide2" class = "sliders">
+                <ul class="flex-data-list">
+                    <li>
+                        <h1>365</h1>
+                        <p>lorem ipsum</p>
+                    </li>
+                    <li>
+                        <h1>98%</h1>
+                        <p>lorem ipsum</p>
+                    </li>
+                    <li>
+                        <h1>69</h1>
+                        <p>lorem ipsum</p>
+                    </li>
+                    <li>
+                        <h1>1,642</h1>
+                        <p>lorem ipsum</p>
+                    </li>
+                </ul>
+                <img src="img/person2.jpg" alt = "person3">
+                <p>"Lorem ipsum dolor sit amet magna. Cum sociis natoque penatibus et felis risus auctor augue leo, in consequat non, sagittis vel"</p>
+                <p>LESALE CHRISTPHER, PINTEREST</p>
             </li>
-            <li>
-                <h1>69</h1>
-                <p>lorem ipsum</p>
+            <li id = "slide3" class = "sliders">
+                <ul class="flex-data-list">
+                    <li>
+                        <h1>365</h1>
+                        <p>lorem ipsum</p>
+                    </li>
+                    <li>
+                        <h1>98%</h1>
+                        <p>lorem ipsum</p>
+                    </li>
+                    <li>
+                        <h1>69</h1>
+                        <p>lorem ipsum</p>
+                    </li>
+                    <li>
+                        <h1>1,642</h1>
+                        <p>lorem ipsum</p>
+                    </li>
+                </ul>
+                <img src="img/person3.jpg" alt = "person3">
+                <p>"Lorem ipsum dolor sit amet magna. Cum sociis natoque penatibus et felis risus auctor augue leo, in consequat non, sagittis vel"</p>
+                <p>LESALE CHRISTPHER, PINTEREST</p>
             </li>
-            <li>
-                <h1>1,642</h1>
-                <p>lorem ipsum</p>
+            <li id = "slide1" class = "sliders">
+                <ul class="flex-data-list">
+                    <li>
+                        <h1>365</h1>
+                        <p>lorem ipsum</p>
+                    </li>
+                    <li>
+                        <h1>98%</h1>
+                        <p>lorem ipsum</p>
+                    </li>
+                    <li>
+                        <h1>69</h1>
+                        <p>lorem ipsum</p>
+                    </li>
+                    <li>
+                        <h1>1,642</h1>
+                        <p>lorem ipsum</p>
+                    </li>
+                </ul>
+                <img src="img/person1.jpg" alt = "person3">
+                <p>"Lorem ipsum dolor sit amet magna. Cum sociis natoque penatibus et felis risus auctor augue leo, in consequat non, sagittis vel"</p>
+                <p>LESALE CHRISTPHER, PINTEREST</p>
             </li>
         </ul>
-        <img src="img/person3.jpg" alt = "person3">
-        <p>"Lorem ipsum dolor sit amet magna. Cum sociis natoque penatibus et felis risus auctor augue leo, in consequat non, sagittis vel"</p>
-        <p>LESALE CHRISTPHER, PINTEREST</p>
     </div>
-</div>
 <!--gallery-->
 <div class = "ourPortfolio" id = "ourportfolio">
     <img src="img/ourportfolio.png" alt = "our portfolio">
 </div>
 <ul class = "flex-list-buttons">
-    <li><button>ALL</button></li>
+    <li><button class = "buttonAll">ALL</button></li>
     <li><button>WEB</button></li>
     <li><button>APPS</button></li>
     <li><button>ICON</button></li>
 </ul>
 <div class = "flex-gallery">
-    <div class = "picture1">
+    <div class = "picture1" id = "1Pic">
         <div class = photo>
             <img src = "img/gallery1.jpg" alt = "gallery1">
             <div class= "plus-shadow"></div>
         </div>
         <p>Beautiful Nature</p>
-        <span>apps </span><span>icon </span><span>ui</span>
+        <span class = "span">apps icon ui</span>
         <div class = "img-big">
             <!--czarne tło rgba-->
             <!--img-big-->
         </div>
     </div>
-    <div class = "picture1">
+    <div class = "picture1" id = "2Pic">
         <div class = photo>
             <img src = "img/gallery2.jpg" alt = "gallery2">
             <!--background with plus-->
         </div>
         <p>Beautiful Nature</p>
-        <span>apps </span><span>icon </span><span>ui</span>
+        <span class = "span">web</span>
         <div class = "img-big">
             <!--czarne tło rgba-->
             <!--img-big-->
         </div>
     </div>
-    <div class = "picture1">
+    <div class = "picture1" id = "3Pic">
         <div class = photo>
             <img src = "img/gallery3.jpg" alt = "gallery3">
             <!--background with plus-->
         </div>
         <p>Beautiful Nature</p>
-        <span>apps </span><span>icon </span><span>ui</span>
+        <span class = "span">all</span>
         <div class = "img-big">
             <!--czarne tło rgba-->
             <!--img-big-->
         </div>
     </div>
-    <div class = "picture1">
+    <div class = "picture1" id = "4Pic">
         <div class = "photo">
             <img src = "img/gallery4.jpg" alt = "gallery4">
             <!--background with plus-->
         </div>
         <p>Beautiful Nature</p>
-        <span>apps </span><span>icon </span><span>ui</span>
+        <span class = "span">ui</span>
         <div class = "img-big">
             <!--czarne tło rgba-->
             <!--img-big-->
         </div>
     </div>
-    <div class = "picture1">
+    <div class = "picture1" id = "5Pic">
         <div class = photo>
             <img src = "img/gallery5.jpg" alt = "gallery5">
             <!--background with plus-->
         </div>
         <p>Beautiful Nature</p>
-        <span>apps </span><span>icon </span><span>ui</span>
+        <span class = "span">apps ui</span>
         <div class = "img-big">
             <!--czarne tło rgba-->
             <!--img-big-->
         </div>
     </div>
-    <div class = "picture1">
+    <div class = "picture1" id = "6Pic">
         <div class = photo>
             <img src = "img/gallery6.jpg" alt = "gallery6">
             <!--background with plus-->
         </div>
         <p>Beautiful Nature</p>
-        <span>apps </span><span>icon </span><span>ui</span>
+        <span class = "span">icon ui</span>
         <div class = "img-big">
             <!--czarne tło rgba-->
             <!--img-big-->

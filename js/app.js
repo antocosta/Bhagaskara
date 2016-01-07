@@ -73,6 +73,38 @@ $(document).ready(function(){
     }
     slider1();
 
+//gallery
+    function gallery() {
+        var buttonAll = $(".buttonAll");
+        var apps = $(".apps").text();
+        var picDiv = $(".flex-gallery");
+        var image = picDiv.children();
+
+        buttonAll.on("click", function(event){
+           console.log("dffbh" + apps);
+           console.log(image);
+           image.each(function(index){
+              var imgChild = image.children();
+              var spanCont = imgChild.$(this).text();
+              var spanContArray = spanCont.split(" ");
+
+              console.log(index + spanCont);
+             // console.log(index + ":" + $(this).text());
+
+
+
+
+              //for (var i = 0; i < spanContArray.length; i++) {
+              //    console.log(i + ": " + spanContArray[i]);
+              //}
+
+
+        });
+
+
+        });
+    }
+    gallery();
 });
 
 //slider z animacji
