@@ -88,13 +88,19 @@ header {
     align-self: flex-start;
   }
 }
-p {
+#arrow {
   border: 1px solid red;
   text-align: center;
   img {
     height: 50px;
   }
 }
+//#scaling {
+//  margin-bottom: 0;
+//  @media (max-width: 1150px) {
+//    margin-bottom: 10px;
+//  }
+//}
 //menu bar
 .menuWidth {
   background-color: white;
@@ -209,6 +215,7 @@ svg:hover {
     p {
       max-width: 200px;
       text-align: left;
+      font-family: Lato;
     }
     button {
       max-width: 150px;
@@ -242,7 +249,7 @@ svg:hover {
 .hut {
   background-image: url("../img/Quote.png");
   width: 100%;
-  background-size: 100% 900px;
+  background-size: 100% 1400px;
   background-repeat: no-repeat;
   padding: 20px;
   padding-bottom: 20%;
@@ -370,7 +377,7 @@ svg:hover {
 .cloud {
   background-image: url("../img/Quote.png");
   width: 100%;
-  background-size: 100% 900px;
+  background-size: 100% 1400px;
   background-repeat: no-repeat;
   padding: 20px;
   padding-bottom: 20%;
@@ -410,9 +417,15 @@ svg:hover {
   75% { left: -300%; }
   100% { left: -300%; }
 }
+body{
+  margin: 0;
+}
+.sliderWraper {
+  overflow: hidden;
+}
 .slider2 {
   overflow: hidden;
-  width: 100%;
+  width: auto;
   margin: 0 auto;
   text-align: center;
     ul {
@@ -425,10 +438,9 @@ svg:hover {
     font-size: 20px;
     animation: 20s slidy infinite;
     .sliders {
-      width: 24.9%;
+      width: 25%;
       float: left;
-      border: solid black;
-    }
+     }
   }
   .flex-data-list {
     display: flex;
@@ -449,14 +461,14 @@ svg:hover {
     padding: 10px;
   }
 }
-#slide1 {
+.slide1 {
   background-color: lightgrey;
 }
 #slide2 {
-  background-color: lightblue;
+  background-color: white;
 }
 #slide3 {
-  background-color: lightgoldenrodyellow;
+  background-color: lightgrey;
 }
 //gallery - portfolio
 .ourPortfolio {

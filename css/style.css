@@ -92,11 +92,11 @@ header {
   align-self: flex-start;
 }
 
-p {
+#arrow {
   border: 1px solid red;
   text-align: center;
 }
-p img {
+#arrow img {
   height: 50px;
 }
 
@@ -220,6 +220,7 @@ svg:hover {
 .flexAboutUs .right-side p {
   max-width: 200px;
   text-align: left;
+  font-family: Lato;
 }
 .flexAboutUs .right-side button {
   max-width: 150px;
@@ -251,7 +252,7 @@ svg:hover {
 .hut {
   background-image: url("../img/Quote.png");
   width: 100%;
-  background-size: 100% 900px;
+  background-size: 100% 1400px;
   background-repeat: no-repeat;
   padding: 20px;
   padding-bottom: 20%;
@@ -381,7 +382,7 @@ svg:hover {
 .cloud {
   background-image: url("../img/Quote.png");
   width: 100%;
-  background-size: 100% 900px;
+  background-size: 100% 1400px;
   background-repeat: no-repeat;
   padding: 20px;
   padding-bottom: 20%;
@@ -439,9 +440,17 @@ svg:hover {
     left: -300%;
   }
 }
+body {
+  margin: 0;
+}
+
+.sliderWraper {
+  overflow: hidden;
+}
+
 .slider2 {
   overflow: hidden;
-  width: 100%;
+  width: auto;
   margin: 0 auto;
   text-align: center;
 }
@@ -456,9 +465,8 @@ svg:hover {
   animation: 20s slidy infinite;
 }
 .slider2 ul .sliders {
-  width: 24.9%;
+  width: 25%;
   float: left;
-  border: solid black;
 }
 .slider2 .flex-data-list {
   display: flex;
@@ -477,16 +485,16 @@ svg:hover {
   padding: 10px;
 }
 
-#slide1 {
+.slide1 {
   background-color: lightgrey;
 }
 
 #slide2 {
-  background-color: lightblue;
+  background-color: white;
 }
 
 #slide3 {
-  background-color: lightgoldenrodyellow;
+  background-color: lightgrey;
 }
 
 .ourPortfolio {
